@@ -1,10 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer {
+@layer base {
   body {
     @apply text-black tracking-wider font-medium;
+  }
+  section {
+    @apply mt-11 pt-16 pb-4 md:pt-20 px-10;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-block  text-xl py-4 px-20 leading-7 capitalize text-center cursor-pointer rounded-md ease-linear duration-200;
+  }
+
+  .btn-primary {
+    @apply text-white shadow-lg shadow-primaryColorLight bg-primaryColor;
+  }
+}
+
+@layer utilities {
+  .home__title {
+    @apply text-4xl font-rubik lg:text-5xl;
+  }
+  .paragrapg {
+    @apply text-blackColor text-base leading-5;
   }
 }

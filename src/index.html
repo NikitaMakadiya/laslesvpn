@@ -22,56 +22,89 @@
     <!-- ---------- -->
   </head>
   <body>
-    <header class="fixed top-5 left-0 w-full z-50">
-      <nav class="container relative h-14 flex justify-between items-center">
+    <header class="fixed top-5 left-0 w-full z-50 px-10">
+      <nav class="container relative h-14 flex justify-between items-center ">
         <div>
           <a href="#"><img src="images/Logo.svg" alt="" /></a>
         </div>
+        
 
-        <div class="hidden absolute top-0 left-0 w-full py-14 border-b border-gray-400">
-          <ul class="flex flex-col text-center gap-5">
+        <div id="nav-menu" class=" hidden absolute top-0 left-0 w-full py-14 border-b bg-white border-gray-400 md:block md:static md:py-0 md:border-none md:w-auto md:ml-auto md:mr-auto  ">
+          <ul class="flex flex-col text-center gap-8 md:flex-row">
             <li>
-              <a href="#home" class="hover:text-primaryColor">Home</a>
+              <a href="#home"  class="nav_link hover:text-primaryColor ">Home</a>
+            </li>
+            <li> 
+              <a href="#home"  class="nav_link hover:text-primaryColor">Feature</a>
             </li>
             <li>
-              <a href="#home" class="hover:text-primaryColor">Feature</a>
+              <a href="#home"  class="nav_link hover:text-primaryColor">Pricing</a>
             </li>
             <li>
-              <a href="#home" class="hover:text-primaryColor">Pricing</a>
+              <a href="#home"  class=" nav_link hover:text-primaryColor">Testimonial</a>
             </li>
             <li>
-              <a href="#home" class="hover:text-primaryColor">Testimonial</a>
-            </li>
-            <li>
-              <a href="#home" class="hover:text-primaryColor">Help</a>
+              <a href="#home"  class="nav_link hover:text-primaryColor">Help</a>
             </li>
           </ul>
               
           
-            <div class="absolute top-[0.7rem] right-4 text-2xl cursor-pointer"> 
-              <i class="ri-close-line"></i>
+            <div id="nav-close" class="absolute top-[0.7rem] right-4 text-2xl cursor-pointer md:hidden"> 
+              <i class="ri-close-line text-3xl text-primaryColor "></i>
             </div>
           
         </div>
 
-          <div class=" flex  justify-between items-center gap-8">
+          <div class=" flex  justify-between items-center gap-10">
  
             <ul class="flex gap-8">
               <li>
                 <a href="" class="text-primaryColor text-xl">SignIn</a>
               </li>
               <li>
-                <a href="" class="text-primaryColor text-xl border border-primaryColor  hover:bg-primaryColor hover:text-white hover:border  py-3 px-5 rounded-full ">SignOut</a>
+                <a href="" class="text-primaryColor text-xl border border-primaryColor  hover:bg-primaryColor hover:text-white hover:border  py-2 px-4 rounded-full ">SignOut</a>
               </li>
             </ul>
 
-            <div>
-              <i class="ri-menu-2-line text-xl text-primaryColor"></i>
+            <div id="menuline" class="md:hidden">
+              <i class="ri-menu-2-line text-xl text-primaryColor cursor-pointer  "></i>
             </div>
           </div>   
           
         </div>
       </nav>
     </header>
+
+    <!-- herosection -->
+
+    <section id="home"> 
+      <div class="container flex flex-col items-center gap-20 md:flex-row sm:flex-col-reverse   ">
+     
+        <div class="  md:basis-1/2 lg:basis-1/ space-y-8 "  >
+        <h1 class="home__title md:break-after-auto">Want anything to be easy <br/> with LaslesVPN.</h1>
+
+        <p class="paragrapg  lg:break-inside-auto">
+          Provide a network for all your needs with ease and fun usingLaslesVPN discover interesting features from us.
+        </p>
+        <div>
+          <button class="btn btn-primary">Get Start</button>
+        </div>
+      </div>     
+      
+      <div class=" md:basis-1/2 lg:basis-1/2 ">
+        <img src="images/header-illustration.svg" class="" alt="">
+       
+      </div>
+    
+    </div>
+
+
+    </section>
+
+
+
+
+    <!--end herosection  -->
+    <script src="main.js"></script>
   </body>
 </html>

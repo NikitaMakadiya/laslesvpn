@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       colors: {
         primaryColor: "#f53838",
-        primaryColorLight: "#010d78",
+        primaryColorLight: "#f76868",
         secondaryColor: "#FFCC00",
         paragraphColor: "#c0c0c0",
         whiteColor: "#fff",
@@ -19,7 +19,7 @@ module.exports = {
     container: {
       center: true,
       padding: {
-        DEFAULT: "1rem",
+        DEFAULT: "2rem",
         sm: "1.5rem",
       },
     },
@@ -27,6 +27,7 @@ module.exports = {
     fontFamily: {
       oswald: ["Oswald", "snas-serif"],
       dmsans: ["DM Sans", "sans-serif"],
+      rubik: ["Rubik", "sans-serif"],
     },
   },
   plugins: [],
