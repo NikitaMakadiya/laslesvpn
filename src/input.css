@@ -24,8 +24,13 @@
 }
 
 @layer utilities {
-  .home__title {
-    @apply text-4xl font-rubik lg:text-5xl;
+  .home__title,
+  .card_title {
+    @apply text-4xl font-rubik font-normal lg:text-5xl;
+  }
+
+  .card_title {
+    @apply text-lg font-bold;
   }
   .paragrapg {
     @apply text-blackColor text-base leading-5;
