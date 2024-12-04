@@ -3,9 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     screens: {
-      sm: "480px",
-      md: "768px",
-      lg: "1024px",
+      sm: "530px",
+      md: "1024px",
+      lg: "1280px",
     },
     extend: {
       colors: {
@@ -15,7 +15,8 @@ module.exports = {
     container: {
       center: true,
       padding: {
-        DEFAULT: "1.5rem",
+        DEFAULT: "1rem",
+        sm: "2.5rem",
       },
     },
     fontFamily: {
