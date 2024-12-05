@@ -22,7 +22,7 @@
     @apply text-5xl font-oswald  lg:text-6xl;
   }
   .home_subtitle {
-    @apply text-4xl   lg:text-5xl;
+    @apply text-4xl   lg:text-4xl;
   }
 
   .paragraph {
