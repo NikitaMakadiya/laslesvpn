@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-dmsans;
+  }
+  section {
+    @apply pt-28  md:pt-20  mt-10 mb-10;
+  }
+}
+
+@layer utilities {
+  .menu_text {
+    @apply hover:text-primarycolor text-lg font-semibold ease-in duration-200;
+  }
+
+  .home_title {
+    @apply text-4xl font-rubik  lg:text-5xl;
+  }
+  .home_subtitle {
+    @apply text-3xl font-rubik  font-normal  lg:text-4xl;
+  }
+
+  .paragraph {
+    @apply leading-5;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-block text-base py-4 px-20 text-center cursor-pointer rounded-md ease-linear duration-200 text-white font-medium bg-primarycolor  shadow-sm  hover:shadow-sm hover:shadow-gray-500  hover:scale-110;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    height: auto;
+  }
+}
