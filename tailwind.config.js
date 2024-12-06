@@ -22,6 +22,7 @@ module.exports = {
     fontFamily: {
       oswald: ["Oswald", "sans-serif"],
       dmsans: ["DM Sans", "sans-serif"],
+      rubik: ["Rubik", "sans-serif"],
     },
   },
   plugins: [],

@@ -52,7 +52,7 @@
               class="md:text-xl text-primarycolor font-medium border-primarycolor border rounded-full py-2 px-5 hover:bg-primarycolor hover:text-white hover:duration-200 hover:ease-in-out">SignOut</a>
           </li>
         </ul>
-        <div id="hamburger">
+        <div id="hamburger" class="md:hidden">
           <i class="ri-menu-2-line text-xl"></i>
         </div>
       </div>
@@ -86,7 +86,7 @@
 
     <section id="live_info">
       <div
-        class="container flex flex-col items-start md:flex-row md:justify-between lg:border shadow-sm lg:w-2/3 py-9 gap-10">
+        class="container flex flex-col items-start md:flex-row md:justify-between lg:border-2 shadow-sm lg:w-2/3 py-9 gap-10">
         <div class="flex gap-5 text-xl">
           <img src="images/icon-location.a4285534.svg" alt />
           <div>
@@ -110,18 +110,15 @@
         </div>
       </div>
     </section>
-
     <!-- end section--------- -->
 
     <!-- Features section -->
-
     <section id="features-section ">
-      <div class>
+      <div>
         <div class="px-14 flex flex-col items-center gap-14 lg:flex-row">
           <div class="basis-1/2 flex md:justify-center">
             <img class="object-contain w-full" src="images/Illustration 2.c75e9726.svg" alt />
           </div>
-
           <div class="basis-1/2 space-y-8">
             <h2 class="home_subtitle">
               We Provide Many Features You <br />
@@ -132,7 +129,6 @@
               You can explore the features that we provide with fun and have
               their own functions each feature.
             </p>
-
             <ul class="space-y-6">
               <li class="flex gap-3">
                 <figure>
@@ -140,7 +136,6 @@
                 </figure>
                 <span>Powerful online protection.</span>
               </li>
-
               <li class="flex gap-3">
                 <figure>
                   <img src="images/icon-check.0fbcd008.svg" alt />
@@ -291,11 +286,9 @@
         </div>
       </div>
     </section>
-
     <!-- end plan -->
 
     <!-- Network section -->
-
     <section id="networksection">
       <div class="grid justify-center">
         <h2 class="home_subtitle">Huge Global Network of Fast VPN</h2>
@@ -308,7 +301,6 @@
         <div class="flex justify-center mt-10">
           <img src="images/Map.0936c513.svg" class="text" alt />
         </div>
-
         <div class="flex relative items-center md:justify-between">
           <figure>
             <img src="images/Netflix.4e99812b.svg" alt class="md:w-full" />
@@ -329,38 +321,136 @@
     <!-- end  Network section -->
 
     <!-- testimonial section -->
-    <section id="testimonial" class="py-20">
+    <section id="testimonial">
       <div class="container">
         <div class="mx-auto text-center">
-          <h2 class="home_subtitle">Trusted by Thousands of Happy Customer</h2>
-          <p class="py-5">These are the stories of our customers who have joined us with great pleasure when using this
-            crazy
-            feature. Lorem ipsum dolor sit amet. loream</p>
+          <h2 class="home_subtitle">
+            Trusted by Thousands of Happy Customer
+          </h2>
+          <p class="py-5">
+            These are the stories of our customers who have joined us with
+            great pleasure when using this crazy
+          </p>
         </div>
-
         <div class="swiper py-10">
-          <ul class="swiper-wrapper">
-            <li class="swiper-slide">
-              <div class="flex flex-col gap-5  rounded-lg p-6 border hover:border-primarycolor ">
-                <div class="flex items-center">
-                  <img src="images/download (1).jpeg" alt="review image" class="w-12 h-12 rounded-full">
+          <ul class="swiper-wrapper flex">
+            <li class="p-4 swiper-slide">
+              <div class="flex flex-col rounded-lg h-full border-2 hover:border-primarycolor p-8">
+                <div class="flex items-center mb-3">
+                  <div class="mr-2 inline-flex items-center justify-center rounded-full text-white flex-shrink-0">
+                    <img src="images/download (1).jpeg" class="h-12 w-12 rounded-full" rou alt="" />
+                  </div>
                   <div class="ml-2">
                     <p class="font-oswald uppercase">Jhone doe</p>
-                    <p class="paragraph"> designer</p>
+                    <p class="paragraph">designer</p>
                   </div>
-                  <div class="ml-auto"> 4.5
+                  <div class="ml-auto">
+                    4.5
                     <i class="fa-regular fa-star"></i>
                   </div>
                 </div>
-
-                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat cum
-                  aliquid culpa
-                  omnis numquam quibusdam est voluptatem voluptas Lorem ipsum, dolor sit amet consectetur adipisicing
-                  elit. Natus, vitae.?</p>
-
+                <div class="flex flex-col justify-between flex-grow">
+                  <p class="paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quaerat cum aliquid culpa omnis numquam quibusdam est
+                    voluptatem voluptas?
+                  </p>
+                </div>
               </div>
             </li>
-            <li class="swiper-slide">
+            <li class="p-4 swiper-slide">
+              <div class="flex flex-col rounded-lg h-full border-2 hover:border-primarycolor p-8">
+                <div class="flex items-center mb-3">
+                  <div class="mr-2 inline-flex items-center justify-center rounded-full text-white flex-shrink-0">
+                    <img src="images/download (1).jpeg" class="h-12 w-12 rounded-full" rou alt="" />
+                  </div>
+                  <div class="ml-2">
+                    <p class="font-oswald uppercase">Jhone doe</p>
+                    <p class="paragraph">designer</p>
+                  </div>
+                  <div class="ml-auto">
+                    4.5
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                </div>
+                <div class="flex flex-col justify-between flex-grow">
+                  <p class="paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quaerat cum aliquid culpa omnis numquam quibusdam est
+                    voluptatem voluptas?
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="p-4 swiper-slide">
+              <div class="flex flex-col rounded-lg h-full border-2 hover:border-primarycolor p-8">
+                <div class="flex items-center mb-3">
+                  <div class="mr-2 inline-flex items-center justify-center rounded-full text-white flex-shrink-0">
+                    <img src="images/download (1).jpeg" class="h-12 w-12 rounded-full" rou alt="" />
+                  </div>
+                  <div class="ml-2">
+                    <p class="font-oswald uppercase">Jhone doe</p>
+                    <p class="paragraph">designer</p>
+                  </div>
+                  <div class="ml-auto">
+                    4.5
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                </div>
+                <div class="flex flex-col justify-between flex-grow">
+                  <p class="paragraph">Lorem ipsum dolor sit am</p>
+                </div>
+              </div>
+            </li>
+            <li class="p-4 swiper-slide">
+              <div class="flex flex-col rounded-lg h-full border-2 hover:border-primarycolor p-8">
+                <div class="flex items-center mb-3">
+                  <div class="mr-2 inline-flex items-center justify-center rounded-full text-white flex-shrink-0">
+                    <img src="images/download (1).jpeg" class="h-12 w-12 rounded-full" rou alt="" />
+                  </div>
+                  <div class="ml-2">
+                    <p class="font-oswald uppercase">Jhone doe</p>
+                    <p class="paragraph">designer</p>
+                  </div>
+                  <div class="ml-auto">
+                    4.5
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                </div>
+                <div class="flex flex-col justify-between flex-grow">
+                  <p class="paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quaerat cum aliquid culpa omnis numquam quibusdam est
+                    voluptatem voluptas?
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="p-4 swiper-slide">
+              <div class="flex flex-col rounded-lg h-full border hover:border-primarycolor p-8">
+                <div class="flex items-center mb-3">
+                  <div class="mr-2 inline-flex items-center justify-center rounded-full text-white flex-shrink-0">
+                    <img src="images/download (1).jpeg" class="h-12 w-12 rounded-full" rou alt="" />
+                  </div>
+                  <div class="ml-2">
+                    <p class="font-oswald uppercase">Jhone doe</p>
+                    <p class="paragraph">designer</p>
+                  </div>
+                  <div class="ml-auto">
+                    4.5
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                </div>
+                <div class="flex flex-col justify-between flex-grow">
+                  <p class="paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quaerat cum aliquid culpa
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <!-- <li class="swiper-slide">
               <div class="flex flex-col gap-5  rounded-lg p-6 border hover:border-primarycolor ">
                 <div class="flex items-center">
                   <img src="images/download (1).jpeg" alt="review image" class="w-12 h-12 rounded-full">
@@ -454,12 +544,10 @@
                   omnis numquam quibusdam est voluptatem voluptas?</p>
 
               </div>
-            </li>
-
+            </li> -->
           </ul>
           <div class="swiper-pagination"></div>
         </div>
-
       </div>
     </section>
 
@@ -467,15 +555,18 @@
 
     <!-- subscribe section -->
     <section id="subscribe">
-      <div class="containe  px-20">
-        <div class=" flex flex-col md:flex-row justify-between   border shadow-lg bg-white p-20">
+      <div class="containe px-20 md:mx-44">
+        <div class="flex flex-col md:flex-row justify-between border shadow-lg bg-white p-14">
           <div class>
-            <h2 class="text-3xl font-normal">Subscribe Now for Get Special
-              Features!</h2>
-            <p class="pt-2">Let's subscribe with us and find the fun.</p>
+            <h2 class="home_subtitle">
+              Subscribe Now for Get Special Features!
+            </h2>
+            <p class="py-3">Let's subscribe with us and find the fun.</p>
           </div>
           <div>
-            <button class="bg-primarycolor rounded-lg text-white px-10 py-4">SubscribeNow</button>
+            <button class="bg-primarycolor rounded-lg text-white px-10 py-4">
+              SubscribeNow
+            </button>
           </div>
         </div>
       </div>
@@ -484,11 +575,65 @@
 
     <!-- footer section -->
     <section id="footer">
+      <div class="container flex flex-col items-start gap-10 md:flex-row-reverse ">
 
-      <div class="container p-16 flex  justify-between bg-stone-50">
+        <div class="md:basis-1/2 ">
+          <div class="flex  gap-6 md:justify-between">
+            <div>
+              <h3 class="text-xl font-semibold mb-5">Product</h3>
+              <ul class="space-y-2">
+                <li> Download </li>
+                <li> Pricing </li>
+                <li> Locations </li>
+                <li> Server </li>
+                <li> Countries</li>
+                <li> Blog</li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold mb-5">Product</h3>
+              <ul class="space-y-2">
+                <li> Download </li>
+                <li> Pricing </li>
+                <li> Locations </li>
+                <li> Server </li>
+                <li> Countries</li>
+                <li> Blog</li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold mb-5">Product</h3>
+              <ul class="space-y-2">
+                <li> Download </li>
+                <li> Pricing </li>
+                <li> Locations </li>
+                <li> Server </li>
+                <li> Countries</li>
+                <li> Blog</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
         <div class="basis-1/2">
-          <div class=" block w-1/3 space-y-5">
-            <img src="images/Logo.svg" alt>
+          <div class="gap-6 md:justify-between space-y-3">
+            <img src="images/Logo.svg" alt="">
+            <p class="max-w-sm">
+              LaslesVPN is a private virtual network that has unique features
+              and has high security.
+            </p>
+            <div class="flex gap-8 pb-11">
+              <i class="fa-brands fa-facebook-f text-primary text-lg"></i>
+              <i class="fa-brands fa-twitter text-primary text-lg"></i>
+              <i class="fa-brands fa-instagram text-primary text-lg"></i>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- <div class="md:basis-1/">
+          <div class="justify-between">
+            <img src="images/Logo.svg" alt="image">
             <p>
               LaslesVPN is a private virtual network that has unique features
               and has high security.
@@ -499,48 +644,12 @@
               <i class="fa-brands fa-instagram text-primary text-lg"></i>
             </div>
           </div>
-        </div>
+        </div> -->
 
-        <div class=" basis-1/2 ">
-          <div class="flex justify-between ">
-            <div>
-              <h3 class="text-xl font-semibold mb-5">Product</h3>
-              <ul class="space-y-2">
-                <li> Download </li>
-                <li> Pricing </li>
-                <li> Locations </li>
-                <li> Server </li>
-                <li> Countries</li>
-                <li> Blog</li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 class="text-xl font-semibold mb-5">Product</h3>
-              <ul class="space-y-2">
-                <li> Download </li>
-                <li> Pricing </li>
-                <li> Locations </li>
-                <li> Server </li>
-                <li> Countries</li>
-                <li> Blog</li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 class="text-xl font-semibold mb-5">Product</h3>
-              <ul class="space-y-2">
-                <li> Download </li>
-                <li> Pricing </li>
-                <li> Locations </li>
-                <li> Server </li>
-                <li> Countries</li>
-                <li> Blog</li>
-              </ul>
-            </div>
-          </div>
-        </div>
+      </div>
     </section>
+
+
 
     <!-- end footer section -->
   </main>
@@ -553,31 +662,31 @@
       spaceBetween: 30,
       autoplay: {
         delay: 3000,
-        disableOnInteraction: false
+        disableOnInteraction: false,
       },
       // If we need pagination
       pagination: {
         el: ".swiper-pagination",
-        clickable: true
+        clickable: true,
       },
       grabCursor: true,
       breakpoints: {
         // when window width is >= 320px
         530: {
           slidesPerView: 1,
-          spaceBetween: 20
+          spaceBetween: 20,
         },
         // when window width is >= 480px
         1024: {
           slidesPerView: 3,
-          spaceBetween: 30
+          spaceBetween: 30,
         },
         // when window width is >= 640px
         1280: {
           slidesPerView: 3,
-          spaceBetween: 40
-        }
-      }
+          spaceBetween: 40,
+        },
+      },
     });
   </script>
   <script src="main.js"></script>
